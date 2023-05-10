@@ -44,6 +44,15 @@ h2 {
     h2 { font-size: 4rem; } 
 }
 
+h3 {
+    max-width: 640px;
+    margin: 0 auto 1rem auto;
+    color: var(--lpink);
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px var(--dviolet);
+}
+
 
 
 /* Navigation Section */
@@ -80,7 +89,7 @@ h2 {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: var(--medium-green);
+    background-color: var(--mviolet);
     background-image: url(./images/header.jpg);
 }
   
@@ -98,28 +107,29 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
-    height: 80vh;
-    padding: 0 2rem;
-    background: var(--lightest-green);
-    background-image: radial-gradient(var(--white-green) 0%, var(--lightest-green) 100%);
-    border-bottom: 3px dashed var(--aqua-green);
+    height: auto;
+    padding: 2rem;
+    border-bottom: 1px solid var(--mpink);
 }
 
-.myself-img {
-    float: left;
-    border-radius: 10px; 
-    width: 300px; 
-    padding: 1rem;
+
+.about > img {
+    width: 300px;
+    border-radius: 100%;
 }
 
+.about > p:first-of-type {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
 
 
 /* Projects section */
 .projects {
     text-align: center;
     padding: 10rem 2rem;
-    background: var(--lightest-green);
     border-bottom: 1px solid var(--dviolet);
 }  
 
@@ -182,10 +192,9 @@ h2 {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 80vh;
+    height: 30vh;
     padding: 0 2rem;
-    background: var(--lightest-green);
-    border-bottom: 1px solid var(--dviolet);
+    border-bottom: 1px solid var(--mpink);
 }
 
 .contact > .credits { font-size: 0.8rem; font-style: italic; }
@@ -199,11 +208,9 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background: var(--lightest-green);
-    background-image: radial-gradient(var(--white-green) 0%, var(--lightest-green) 100%);
 }
   
-footer > p {margin: 2rem;}
+footer > p {margin: 1rem;}
   
 @media (max-width: 28.75em) {
     footer {flex-direction: column; text-align: center;}
