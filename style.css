@@ -125,6 +125,28 @@ h3 {
     margin-bottom: 1rem;
 }
 
+.about > ul > li > span.date {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.about > ul > li > span.info {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about > ul > li > span.experience-description {
+    font-size: 1rem;
+    font-style: italic;
+    display: block;
+}
+
+.about > ul > li {
+    padding: 1rem;
+}
+
 
 /* Projects section */
 .projects {
