@@ -123,26 +123,7 @@ h3 {
 .about > p:first-of-type {
     font-style: italic;
     margin-bottom: 1rem;
-}
-
-.about > ul > li > span.date {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 1rem;
-    color: var(--dviolet);
-}
-
-.about > ul > li > span.info {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: var(--mviolet);
-}
-
-.about > ul > li > span.experience-description {
-    font-size: 1rem;
-    display: block;
-    color: var(--mpink);
-    text-transform: uppercase;
+    padding: 2% 30% 2% 30%;
 }
 
 .about > ul > li { padding: 1rem; }
