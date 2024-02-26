@@ -152,8 +152,8 @@ h3 {
     margin-bottom: 2rem;
 }
   
-@media (max-width: 30.625em) {
-    .projects {padding: 6rem 1rem;}
+@media (max-width: 28.75em) {
+    .projects {padding: 6rem 1rem; }
     .projects-grid {grid-template-columns: 1fr;}
 }
   
